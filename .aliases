@@ -29,6 +29,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
+alias pd1='pd +1'
 alias pd2='pd +2'
 alias less='less -i'
 alias unityReplace='DISPLAY=:0 unity --replace &'
@@ -46,6 +47,16 @@ alias gc='git commit -m'
 alias gscommit='git stash && git svn dcommit && git stash pop'
 alias gsupdate='git stash && git svn rebase && git stash pop'
 alias qg='nh qgit'
+alias dt='git difftool'
+alias ga='gadd'
+
+gadd() {
+    if [ -z "$1" ];
+        then git add . && git status
+    else
+        git add "$1" && git status
+    fi
+}
 
 gdl() {
     gradle "$@"
@@ -112,6 +123,8 @@ fnd() {
     if [ -z "$2" ];
         then find . -iname "$1"
     else
-        find "$1" -iname "$2"
+        find "$2" -iname "$1"
     fi
 }
+
+
