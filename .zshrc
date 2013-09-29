@@ -97,3 +97,7 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 compdef nh='nohup'
 
 export EDITOR=/usr/bin/vim
+
+# Eclipse variable
+export MOZILLA_FIVE_HOME=/usr/lib/xulrunner
+export LD_LIBRARY_PATH=$MOZILLA_FIVE_HOME:$LD_LIBRARY_PATH

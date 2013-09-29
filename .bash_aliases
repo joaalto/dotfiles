@@ -24,6 +24,8 @@ alias compizReplace='DISPLAY=:0 compiz --replace &'
 alias clips='xclip -selection clipboard'
 alias ee='echo -e'
 
+alias reds='nh redshift -t 5500:3000'
+
 # Git
 alias gstat='git status'
 alias gst='gstat'
