@@ -24,3 +24,8 @@ set ignorecase
 set smartcase
 
 set shell=zsh
+
+let mapleader = "-"
+
+nnoremap <Leader>n :tabn<cr>
+nnoremap <Leader>p :tabp<cr>
