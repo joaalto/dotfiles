@@ -82,7 +82,16 @@ rf() {
     rm -rf "$@"
 }
 
+
 pd() {
+    if [ -z "$1" ];
+        then pushd && dv
+    else
+        pushd "$1" && dv
+    fi
+}
+
+pdl() {
     if [ -z "$1" ];
         then pushd && dv && ll
     else
