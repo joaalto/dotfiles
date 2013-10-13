@@ -9,6 +9,7 @@ alias zshconf='vim ~/.zshrc'
 alias zshreload='. ~/.zshrc && . ~/.oh-my-zsh/plugins/gradle/gradle.plugin.zsh && alreload'
 alias alreload='. ~/.aliases'
 alias alconf='vim ~/.aliases'
+alias vimconf='vim ~/.vimrc'
 
 alias upd='sudo apt-get update'
 alias upg='sudo apt-get upgrade'
