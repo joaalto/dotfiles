@@ -5,6 +5,8 @@ alias l='ls -CF'
 
 alias sedi='sed -i'
 
+alias reds='nh redshift -t 5500:3000'
+
 alias zshconf='vim ~/.zshrc'
 alias zshreload='. ~/.zshrc && . ~/.oh-my-zsh/plugins/gradle/gradle.plugin.zsh && alreload'
 alias alreload='. ~/.aliases'
