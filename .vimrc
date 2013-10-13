@@ -22,3 +22,5 @@ set wrap "Wrap lines
 " Use smart case in searches
 set ignorecase
 set smartcase
+
+set shell=zsh
