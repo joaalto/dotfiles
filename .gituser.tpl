@@ -1,4 +1,3 @@
 [user]
 	name = Joonas Aalto
-	email = joaalto@iki.fi
-
+	email = 

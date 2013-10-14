@@ -4,6 +4,8 @@
 !.aliases
 !.bash_aliases
 !.gitconfig
-!.gituser
+!.gituser.tpl
 !.vimrc
 !keymap-joonas
+!/.vim/
+!.vim/**
