@@ -29,3 +29,17 @@ let mapleader = "-"
 
 nnoremap <Leader>n :tabn<cr>
 nnoremap <Leader>p :tabp<cr>
+
+set t_Co=256
+
+set ic
+
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
+"colorscheme zenesque
+set background=dark
+colorscheme solarized
+
+set hidden
