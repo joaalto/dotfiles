@@ -30,6 +30,10 @@ let mapleader = "-"
 nnoremap <Leader>n :tabn<cr>
 nnoremap <Leader>p :tabp<cr>
 
+" Don't need these with unimpaired
+"nnoremap <Leader><s-cr> O<Esc
+"nnoremap <Leader><CR> o<Esc> k
+
 set t_Co=256
 
 set ic
@@ -43,3 +47,9 @@ set background=dark
 colorscheme solarized
 
 set hidden
+
+" Reload .vimrc automatically
+augroup myvimrchooks
+    au!
+    autocmd bufwritepost .vimrc source ~/.vimrc
+augroup END
