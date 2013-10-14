@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/joaalto/workspaces/ac/trunk/sw/web-layer/common/AdminCore/build'
-let g:netrw_dirhist_2='/mnt/assoc-J/TUKI/VDI/Tehy Asha -toimitus'
-let g:netrw_dirhist_3='/home/joaalto/workspaces/ac3/sw/web-layer/tytti/asha/environments/localdev'
-let g:netrw_dirhist_4='/etc/centrifydc'
-let g:netrw_dirhist_5='/var/www/resources/files/style'
-let g:netrw_dirhist_6='/home/joaalto/workspaces/ac1/sw/web-layer/common/resources/src/main/webapp/files/style'
