@@ -111,7 +111,7 @@ kil() {
 }
 
 peg() {
-    ps -ef | grep "$1"
+    nocorrect ps -ef | grep "$1"
 }
 
 mkcd() {
