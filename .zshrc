@@ -44,6 +44,7 @@ plugins=(git history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
+source $HOME/.aliases-local
 unsetopt autopushd
 
 # Customize to your needs...
