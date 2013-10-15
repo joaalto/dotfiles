@@ -119,7 +119,7 @@ mkcd() {
 }
 
 nh() {
-    nohup "$1" &> /dev/null &
+    nocorrect nohup "$1" &> /dev/null &
 }
 
 ged() {
