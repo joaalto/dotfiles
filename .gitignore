@@ -9,3 +9,5 @@
 !keymap-joonas
 !/.vim/
 !.vim/**
+!/xcape/
+!xcape/**

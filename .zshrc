@@ -106,3 +106,9 @@ export EDITOR=/usr/bin/vim
 # Eclipse variable
 export MOZILLA_FIVE_HOME=/usr/lib/xulrunner
 export LD_LIBRARY_PATH=$MOZILLA_FIVE_HOME:$LD_LIBRARY_PATH
+
+# Run xcape once.
+if [ -z $XCAPE ] ; then
+    export XCAPE=1
+    ~/xcape/xcape -e 'Control_L=Escape'
+fi
