@@ -29,7 +29,7 @@ let mapleader = "-"
 
 nnoremap <Leader>n :tabn<cr>
 nnoremap <Leader>p :tabp<cr>
-
+nnoremap <Leader>s :w<cr>
 " Don't need these with unimpaired
 "nnoremap <Leader><s-cr> O<Esc
 "nnoremap <Leader><CR> o<Esc> k
