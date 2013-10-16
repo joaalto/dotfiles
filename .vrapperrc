@@ -1,0 +1,14 @@
+set ignorecase
+set smartcase
+
+let mapleader = "-"
+
+nnoremap <Leader>n :tabn<cr>
+nnoremap <Leader>p :tabp<cr>
+#nnoremap <Leader>w :w<cr>
+nnoremap -w :w<cr>
+nnoremap <Leader>wq :wq<cr>
+nnoremap <Leader>q :q<cr>
+nnoremap <Leader>qa :qa<cr>
+nnoremap <Leader>wqa :wqa<cr>
+
