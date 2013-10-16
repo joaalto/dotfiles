@@ -59,3 +59,5 @@ augroup myvimrchooks
 augroup END
 
 set timeoutlen=500
+set autoread
+au CursorHold * checktime
