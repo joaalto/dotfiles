@@ -27,8 +27,8 @@ set shell=zsh
 
 let mapleader = "-"
 
-nnoremap <Leader>n :tabn<cr>
-nnoremap <Leader>p :tabp<cr>
+nnoremap <Leader>n :bn<cr>
+nnoremap <Leader>p :bp<cr>
 nnoremap <Leader>w :w<cr>
 nnoremap <Leader>wq :wq<cr>
 nnoremap <Leader>q :q<cr>
