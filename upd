@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-$sudo apt-get update && sudo apt-get upgrade;
+$sudo apt-get update && sudo apt-get upgrade -y;
 if [[ $? == 0 ]] then
     notify-send "Update finished." -i ~/ubuntu.png
 else
