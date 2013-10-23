@@ -30,6 +30,7 @@ let mapleader = "-"
 nnoremap <Leader>n :bn<cr>
 nnoremap <Leader>p :bp<cr>
 nnoremap <Leader>w :w<cr>
+nnoremap <Leader>x :x<cr>
 nnoremap <Leader>wq :wq<cr>
 nnoremap <Leader>q :q<cr>
 nnoremap <Leader>qa :qa<cr>
