@@ -15,9 +15,9 @@
 	file-view-vpane-position = 529
 [core]
 [merge]
-    tool = mymeld
+    tool = vimdiff
     conflictstyle = diff3
-[mergetool "mymeld"]
-    cmd = meld $LOCAL $BASE $REMOTE $MERGED
+[mergetool]
+    prompt = false
 [color]
     ui = auto
