@@ -42,10 +42,10 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git history-substring-search)
 
+source $HOME/.zshrc-local
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
 source $HOME/.aliases-local
-source $HOME/.zshrc-local
 unsetopt autopushd
 
 # Customize to your needs...
