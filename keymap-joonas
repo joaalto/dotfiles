@@ -166,7 +166,7 @@ partial alphanumeric_keys
 xkb_symbols "joonas" {
     include "fi(fi)"
 
-    name[Group1]="Finnish (classic, with custom mappings)";
+    name[Group1]="Finnish (with custom mappings)";
 
     key <TLDE> { [  asciitilde,      onehalf,          onequarter,            threequarters         ] };
     key <AE12> { [  bracketleft,     dead_grave,       dead_cedilla,          dead_ogonek           ] };
