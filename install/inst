@@ -1,4 +1,5 @@
 #!/bin/zsh
 source ~/.aliases
 alias inst='inst -y'
-inst ack-grep
+inst ack-grep; 
+inst tmux
