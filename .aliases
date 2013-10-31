@@ -12,6 +12,8 @@ alias zshreload='. ~/.zshrc && . ~/.oh-my-zsh/plugins/gradle/gradle.plugin.zsh &
 alias alreload='. ~/.aliases'
 alias alconf='vim ~/.aliases'
 
+alias tmconf='vim ~/.tmux.conf'
+
 # Vim
 alias viconf='vim ~/.vimrc'
 
