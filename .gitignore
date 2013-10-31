@@ -17,3 +17,4 @@
 !upd
 !/install
 !install/**
+!.tmux.conf
