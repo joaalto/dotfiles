@@ -18,3 +18,4 @@
 !/install
 !install/**
 !.tmux.conf
+!.ackrc
