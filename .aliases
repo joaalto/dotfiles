@@ -55,18 +55,26 @@ alias ack='ack-grep -i'
 #alias gsl='git stash list'
 alias gts='gst'
 alias gitconf='vim ~/.gitconfig'
-alias gc='git commit -m'
+alias gc='gcomm'
 alias gscommit='git stash && git svn dcommit && git stash pop'
 alias gsupdate='git stash && git svn rebase && git stash pop'
 alias qg='nh qgit'
 alias dt='git difftool'
 alias ga='gadd'
 
+gcomm() {
+     if [ -z "$1" ];
+        then command git commit
+    else
+        command git commit -m "$1"
+    fi
+}
+
 gadd() {
     if [ -z "$1" ];
-        then git add . && git status
+        then command git add . && git status
     else
-        git add "$1" && git status
+        command git add "$1" && git status
     fi
 }
 
