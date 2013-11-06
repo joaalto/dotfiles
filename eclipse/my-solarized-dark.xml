@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="9999" name="My Solarized Dark" modified="2013-01-16 12:25:00" author="Joonas Aalto">
+    <searchResultIndication color="#073642" />
+    <filteredSearchResultIndication color="#073642" />
+    <!--occurrenceIndication color="#073642" /-->
+    <occurrenceIndication color="#506970" />
+    <writeOccurrenceIndication color="#073642" />
+    <findScope color="#839496" />
+    <deletionIndication color="#839496" />
+    <sourceHoverBackground color="#FFFFFF" />
+    <singleLineComment color="#586E75" bold="false" italic="true" />
+    <multiLineComment color="#586E75" italic="true" />
+    <commentTaskTag color="#D33682" bold="true" />
+    <javadoc color="#7D8C93" />
+    <javadocLink color="#268BD2" bold="true" underline="true" strikethrough="false" />
+    <javadocTag color="#DC322F" />
+    <javadocKeyword color="#A082BD" />
+    <class color="#678CB1" />
+    <interface color="#678CB1" />
+    <method color="#678CB1" />
+    <methodDeclaration color="#268BD2" />
+    <bracket color="#FF7300" />
+    <number color="#2AA198" />
+    <string color="#2AA198" />
+    <operator color="#B58900" />
+    <keyword color="#B58900" />
+    <annotation color="#CB4B16" />
+    <staticMethod color="#839496" />
+    <localVariable color="#268BD2" />
+    <localVariableDeclaration color="#268BD2" />
+    <field color="#678CB1" />
+    <staticField color="#678CB1" />
+    <staticFinalField color="#839496" />
+    <deprecatedMember color="#839496" />
+    <enum color="#839496" />
+    <inheritedMethod color="#839496" />
+    <abstractMethod color="#839496" />
+    <parameterVariable color="#839496" />
+    <typeArgument color="#B58900" />
+    <typeParameter color="#B58900" />
+    <constant color="#2AA198" />
+    <background color="#002B36" />
+    <currentLine color="#19404A" />
+    <foreground color="#839496" />
+    <lineNumber color="#657B83" />
+    <selectionBackground color="#839496" />
+    <selectionForeground color="#002B36" />
+</colorTheme>
