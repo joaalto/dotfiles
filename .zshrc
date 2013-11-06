@@ -102,7 +102,7 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 #compctl -c nh
 compdef nh='nohup'
-compdef j='cd'
+#compdef j='cd'
 
 export EDITOR=/usr/bin/vim
 
@@ -114,4 +114,12 @@ export LD_LIBRARY_PATH=$MOZILLA_FIVE_HOME:$LD_LIBRARY_PATH
 if [ -z $XCAPE ] ; then
     export XCAPE=1
     ~/xcape/xcape -e 'Control_L=Escape'
+fi
+
+if [[ -n "$DISPLAY" && "$TERM" == "xterm" ]]; then
+    export TERM=xterm-256color
+fi
+
+if [ -z $TMUX ]; then
+    exec tmux
 fi
