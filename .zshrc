@@ -46,6 +46,7 @@ source $HOME/.zshrc-local
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
 source $HOME/.aliases-local
+. /usr/share/autojump/autojump.sh
 unsetopt autopushd
 
 # Customize to your needs...
@@ -101,6 +102,7 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 #compctl -c nh
 compdef nh='nohup'
+compdef j='cd'
 
 export EDITOR=/usr/bin/vim
 
