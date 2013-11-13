@@ -46,7 +46,7 @@ source $HOME/.zshrc-local
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
 source $HOME/.aliases-local
-. /usr/share/autojump/autojump.sh
+. /usr/share/autojump/autojump.zsh
 unsetopt autopushd
 
 # Customize to your needs...
