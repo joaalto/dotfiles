@@ -1,3 +1,33 @@
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" My bundles here:
+"
+" original repos on GitHub
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-unimpaired'
+Bundle 'altercation/vim-colors-solarized'
+
+filetype plugin indent on
+
+syntax on
+syntax enable
+set t_Co=16
+
+"colorscheme zenesque
+set background=dark
+"let g:solarized_termcolors=256
+colorscheme solarized
+
+set hidden
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -38,20 +68,6 @@ nnoremap <Leader>wqa :wqa<cr>
 " Don't need these with unimpaired
 "nnoremap <Leader><s-cr> O<Esc
 "nnoremap <Leader><CR> o<Esc> k
-
-set t_Co=256
-
-set ic
-
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
-
-"colorscheme zenesque
-set background=dark
-colorscheme solarized
-
-set hidden
 
 " Reload .vimrc automatically
 augroup myvimrchooks
