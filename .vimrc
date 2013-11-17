@@ -19,6 +19,8 @@ filetype plugin indent on
 
 syntax on
 syntax enable
+
+" Use 16 colors to enable solarized
 set t_Co=16
 
 "colorscheme zenesque
