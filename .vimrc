@@ -14,12 +14,13 @@ Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'pangloss/vim-javascript'
+Bundle 'nathanaelkane/vim-indent-guides'
 
 filetype plugin indent on
 
 syntax on
 syntax enable
-set number
 
 " Use 16 colors to enable solarized
 set t_Co=16
@@ -29,6 +30,8 @@ set background=dark
 "let g:solarized_termcolors=256
 colorscheme solarized
 
+set foldcolumn=2
+highlight! link FoldColumn Normal
 set hidden
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
