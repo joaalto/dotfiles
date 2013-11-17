@@ -19,6 +19,7 @@ filetype plugin indent on
 
 syntax on
 syntax enable
+set number
 
 " Use 16 colors to enable solarized
 set t_Co=16
@@ -67,6 +68,9 @@ nnoremap <Leader>wq :wq<cr>
 nnoremap <Leader>q :q<cr>
 nnoremap <Leader>qa :qa<cr>
 nnoremap <Leader>wqa :wqa<cr>
+nnoremap <F3> :set number<cr>
+nnoremap <F4> :set nonumber<cr>
+
 " Don't need these with unimpaired
 "nnoremap <Leader><s-cr> O<Esc
 "nnoremap <Leader><CR> o<Esc> k
