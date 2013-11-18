@@ -18,6 +18,8 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'Chiel92/vim-autoformat'
 Bundle 'einars/js-beautify'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'marijnh/tern_for_vim'
 
 filetype plugin indent on
 
