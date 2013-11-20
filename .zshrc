@@ -50,7 +50,7 @@ source $HOME/.aliases-local
 unsetopt autopushd
 
 # Customize to your needs...
-export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$HOME/opt/bin
 
 
 #####################
@@ -120,6 +120,6 @@ if [[ -n "$DISPLAY" && "$TERM" == "xterm" ]]; then
     export TERM=xterm-256color
 fi
 
-if [ -z $TMUX ]; then
-    exec tmux
-fi
+#if [ -z $TMUX ]; then
+#    exec tmux
+#fi
