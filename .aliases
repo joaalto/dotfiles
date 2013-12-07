@@ -1,3 +1,4 @@
+alias eclipse='nh env UBUNTU_MENUPROXY= eclipse'
 alias ls='ls --color=auto'
 alias ll='ls -alFh'
 alias la='ls -A'
