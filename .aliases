@@ -136,7 +136,7 @@ mkcd() {
 }
 
 nh() {
-    nocorrect nohup "$1" &> /dev/null &
+    nocorrect nohup "$@" &> /dev/null &
 }
 
 ged() {
