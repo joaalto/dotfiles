@@ -123,3 +123,6 @@ fi
 #if [ -z $TMUX ]; then
 #    exec tmux
 #fi
+
+export sbt_home=~/.sbt
+
