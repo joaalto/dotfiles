@@ -20,6 +20,8 @@ Bundle 'Chiel92/vim-autoformat'
 Bundle 'einars/js-beautify'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'marijnh/tern_for_vim'
+Bundle 'wincent/Command-T'
+Bundle 'derekwyatt/vim-scala'
 
 filetype plugin indent on
 
