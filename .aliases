@@ -5,6 +5,7 @@ alias ll='ls -alFh'
 alias la='ls -A'
 alias l='ls -CF'
 alias xo='xdg-open'
+alias lit='nh LightTable'
 
 alias sedi='sed -i'
 
