@@ -6,6 +6,8 @@
 !.gitconfig
 !.gituser.tpl
 !.vimrc
+!/.lein/
+!.lein/profiles.clj
 !keymap-joonas
 !/.vim/
 !.vim/**
