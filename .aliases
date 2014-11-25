@@ -30,6 +30,7 @@ alias upg='sudo apt-get upgrade'
 alias show='sudo apt-cache show'
 alias showp='sudo apt-cache showpkg'
 alias auu='~/up'
+alias dupg='sudo apt-get dist-upgrade'
 alias remo='sudo apt-get remove'
 alias sag='sudo apt-get'
 alias purge='sag purge'
@@ -65,6 +66,7 @@ alias gsupdate='git stash && git svn rebase && git stash pop'
 alias qg='nh qgit'
 alias dt='git difftool'
 alias ga='gadd'
+alias glp='git log -p'
 
 gcomm() {
      if [ -z "$1" ];
